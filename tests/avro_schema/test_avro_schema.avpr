@@ -1,0 +1,38 @@
+{
+    "namespace": "test.flask_avro",
+    "protocol": "Test",
+
+    "types": [
+        {
+            "name": "Message",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "to",
+                    "type": "string"
+                },
+                {
+                    "name": "from",
+                    "type": "string"
+                },
+                {
+                    "name": "body",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+
+    "messages": {
+        "test_send": {
+            "request": [
+                {
+                    "name":"message",
+                    "type":"Message"
+                }
+            ],
+            "response": "string",
+            "errors": []
+        }
+    }
+}
