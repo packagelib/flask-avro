@@ -72,7 +72,7 @@ The above code registers a function that will handle the request message when th
 
 In order to interact with endpoint, the client would use the AVRO IPC `Requestor` API for your specific language.
 
-For Python, you'll have to install the `avro` package with pip and then you're client could look like this:
+For Python, you'll have to install the `avro` package with pip and then your client could look like this:
 
 ```
 from avro.protocol import protocol
