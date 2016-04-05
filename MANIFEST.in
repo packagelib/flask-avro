@@ -1,0 +1,2 @@
+include VERSION *.txt *.md
+recursive-include * *.txt
